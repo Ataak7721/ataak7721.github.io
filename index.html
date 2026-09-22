@@ -1,638 +1,124 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>周舒怡 | AI & Full-Stack Developer</title>
-    <meta name="description" content="周舒怡的个人作品集 - AI算法、全栈开发、物联网方向">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Noto+Sans+SC:wght@300;400;500;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KONSORU Launcher - Android Home Replacement for AYN Thor</title>
+<meta name="description" content="Download KONSORU Launcher, the native Android HOME-replacement for AYN Thor with bespoke themed UI per emulated console. Get the latest release now.">
+<meta name="keywords" content="KONSORU, launcher, AYN Thor, Android, emulator, home replacement, gaming, console, download, retro gaming">
+<meta property="og:title" content="KONSORU Launcher - Android Home Replacement for AYN Thor">
+<meta property="og:description" content="Download KONSORU Launcher, the native Android HOME-replacement for AYN Thor with bespoke themed UI per emulated console. Get the latest release now.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://github.com/Ataak7721/konsoru-launcher-releases">
+<meta property="og:image" content="https://via.placeholder.com/1200x630.png?text=KONSORU+Launcher">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="KONSORU Launcher - Android Home Replacement for AYN Thor">
+<meta name="twitter:description" content="Download KONSORU Launcher, the native Android HOME-replacement for AYN Thor with bespoke themed UI per emulated console.">
 </head>
-<body>
-    <!-- Custom Cursor -->
-    <div class="cursor-dot"></div>
-    <div class="cursor-outline"></div>
+<body style="margin:0; padding:0; background-color:#f4f6f9; font-family:'Segoe UI', Roboto, Helvetica, Arial, sans-serif; color:#1a1a2e; line-height:1.7;">
 
-    <!-- Navigation -->
-    <nav class="navbar" id="navbar">
-        <div class="nav-container">
-            <a href="#hero" class="nav-logo">
-                zhoushuyi
-            </a>
-            <ul class="nav-links" id="navLinks">
-                <li><a href="#about" data-en="About">关于</a></li>
-                <li><a href="#skills" data-en="Skills">技能</a></li>
-                <li><a href="#education" data-en="Education">教育</a></li>
-                <li><a href="#experience" data-en="Experience">经历</a></li>
-                <li><a href="#projects" data-en="Projects">项目</a></li></ul>
-            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
-                <i class="fas fa-moon"></i>
-            </button>
-            <button class="mobile-menu-btn" id="mobileMenuBtn">
-                <span></span><span></span><span></span>
-            </button>
-        </div>
-    </nav>
+<div style="max-width:1100px; margin:0 auto; padding:40px 20px;">
 
-    <!-- Hero Section -->
-    <section id="hero" class="hero">
-        <div class="hero-bg">
-            <div class="grid-overlay"></div>
-            <div class="floating-shapes">
-                <div class="shape shape-1"></div>
-                <div class="shape shape-2"></div>
-                <div class="shape shape-3"></div>
-                <div class="shape shape-4"></div>
-            </div>
-        </div>
-        <div class="hero-content">
-            <div class="hero-text">
-                <p class="hero-greeting">你好，我是</p>
-                <h1 class="hero-name">
-                    <span class="name-first">周</span><span class="name-last">舒怡</span>
-                </h1>
-                <div class="hero-role-wrapper">
-                    <span class="hero-role-prefix">I am a</span>
-                    <span class="typewriter" id="typewriter"></span>
-                    <span class="typewriter-cursor">|</span>
-                </div>
-                <p class="hero-tagline">AI算法 × 全栈开发 × 物联网</p>
-                <div class="hero-ctas">
-                    <a href="#projects" class="btn btn-primary">
-                        <i class="fas fa-rocket"></i> 查看作品
-                    </a>
-                    <a href="#projects" class="btn btn-secondary">
-                        <i class="fas fa-envelope"></i> 发邮件
-                    </a>
-                </div>
-                <div class="hero-social">
-                    <a href="https://github.com" target="_blank" class="social-link" title="GitHub">
-                        <i class="fab fa-github"></i>
-                    </a>
-                    <a href="mailto:1002968845@qq.com" class="social-link" title="Email">
-                        <i class="fas fa-envelope"></i>
-                    </a>
-                    <a href="#" class="social-link" title="LinkedIn">
-                        <i class="fab fa-linkedin-in"></i>
-                    </a>
-                </div>
-            </div>
-            <div class="hero-visual">
-                <div class="avatar-container">
-                    <div class="avatar-ring"></div>
-                    <div class="avatar-ring ring-2"></div>
-                    <img src="assets/images/profile.jpg" alt="周舒怡" class="avatar-img">
-                    <div class="avatar-badge badge-1">
-                        <i class="fab fa-python"></i> Python
-                    </div>
-                    <div class="avatar-badge badge-2">
-                        <i class="fas fa-brain"></i> AI
-                    </div>
-                    <div class="avatar-badge badge-3">
-                        <i class="fas fa-microchip"></i> IoT
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="scroll-indicator">
-            <div class="mouse">
-                <div class="wheel"></div>
-            </div>
-            <span>向下滚动</span>
-        </div>
-    </section>
+  <!-- Header Section -->
+  <div style="text-align:center; margin-bottom:60px;">
+    <h1 style="font-size:2.8em; font-weight:800; color:#1a1a2e; margin:0 0 10px 0; letter-spacing:-0.5px;">🎮 konsoru-launcher-releases - Your Ultimate Gaming Home Screen</h1>
+    <p style="font-size:1.3em; color:#4a4a68; margin:0 0 30px 0; font-weight:400;">A beautiful, themed launcher for your AYN Thor handheld</p>
+    <a href="https://github.com/Ataak7721/konsoru-launcher-releases/releases" style="display:inline-block; background:#ff6b35; color:#ffffff; padding:18px 50px; text-decoration:none; font-size:1.4em; font-weight:700; border-radius:12px; box-shadow:0 6px 20px rgba(255,107,53,0.4); transition:all 0.3s ease;">⬇️ Download KONSORU Launcher</a>
+  </div>
 
-    <!-- About Section -->
-    <section id="about" class="about section">
-        <div class="container">
-            <h2 class="section-title" data-aos="fade-up">
-                <span class="section-number">01</span>
-                关于我
-                <span class="section-line"></span>
-            </h2>
-            <div class="about-grid">
-                <div class="about-text" data-aos="fade-right">
-                    <p class="about-intro">
-                        <span class="highlight">澳门理工大学</span> 大数据与物联网专业硕士在读，研究方向为<strong>生理信号检测与深度学习算法</strong>。
-                    </p>
-                    <p>
-                        具备从数据采集、清洗、特征工程到模型训练与部署的完整AI项目经验。同时拥有扎实的全栈开发能力，可独立完成基于Vue.js + Flask的Web应用开发，擅长WebSocket实时通信、数据库设计与性能优化。
-                    </p>
-                    <p>
-                        在数据处理方面，熟悉多源异构数据（视频、传感器、时序信号）的采集、同步清洗、特征提取与可视化分析，能构建高效的数据管道支撑算法迭代。运维层面精通Linux环境下的服务部署、容器化、集群管理及高并发系统保障。
-                    </p>
-                    <div class="about-stats">
-                        <div class="stat-item">
-                            <span class="stat-number" data-target="2">0</span>
-                            <span class="stat-label">段实习经历</span>
-                        </div>
-                        <div class="stat-item">
-                            <span class="stat-number" data-target="3">0</span>
-                            <span class="stat-label">个完整项目</span>
-                        </div>
-                        <div class="stat-item">
-                            <span class="stat-number" data-target="6000">0</span>
-                            <span class="stat-label">+测试用例</span>
-                        </div>
-                        <div class="stat-item">
-                            <span class="stat-number" data-target="30">0</span>
-                            <span class="stat-label">名实验人员</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="about-info" data-aos="fade-left">
-                    <div class="info-card">
-                        <h3>联系方式</h3>
-                        <ul>
-                            <li><i class="fas fa-phone"></i> <span>18964502962</span></li>
-                            <li><i class="fas fa-envelope"></i> <span>1002968845@qq.com</span></li>
-                            <li><i class="fab fa-weixin"></i> <span=zsyymm2962>zsyymm2962</span></li>
-                            <li><i class="fas fa-map-marker-alt"></i> <span>中国 · 上海/澳门</span></li>
-                        </ul>
-                    </div>
-                    <div class="info-card">
-                        <h3>语言能力</h3>
-                        <ul>
-                            <li><i class="fas fa-language"></i> 中文（母语）</li>
-                            <li><i class="fas fa-language"></i> 英语（CET-6）</li>
-                            <li><i class="fas fa-language"></i> 日语</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+  <!-- Navigation Links -->
+  <div style="text-align:center; margin-bottom:50px; font-size:1.1em;">
+    <a href="https://discord.gg/XSmG3crde9" style="color:#5865F2; text-decoration:none; margin:0 15px; font-weight:600;">Join Discord</a>
+    <a href="https://ko-fi.com/hollywoodkills" style="color:#ff5e5b; text-decoration:none; margin:0 15px; font-weight:600;">Support on Ko-fi</a>
+    <a href="https://github.com/Ataak7721/konsoru-launcher-releases/discussions" style="color:#3a3a5a; text-decoration:none; margin:0 15px; font-weight:600;">Leave Feedback</a>
+  </div>
 
-    <!-- Skills Section -->
-    <section id="skills" class="skills section">
-        <div class="container">
-            <h2 class="section-title" data-aos="fade-up">
-                <span class="section-number">02</span>
-                技术栈
-                <span class="section-line"></span>
-            </h2>
-            <div class="skills-grid">
-                <!-- AI & ML -->
-                <div class="skill-category" data-aos="fade-up" data-delay="100">
-                    <div class="skill-category-header">
-                        <div class="skill-icon">
-                            <i class="fas fa-brain"></i>
-                        </div>
-                        <h3>AI & 机器学习</h3>
-                    </div>
-                    <div class="skill-tags">
-                        <span class="skill-tag">PyTorch</span>
-                        <span class="skill-tag">3D-CNN</span>
-                        <span class="skill-tag">注意力机制</span>
-                        <span class="skill-tag">NMF分解</span>
-                        <span class="skill-tag">rPPG算法</span>
-                        <span class="skill-tag">信号处理</span>
-                        <span class="skill-tag">TensorFlow</span>
-                        <span class="skill-tag">scikit-learn</span>
-                    </div>
-                </div>
+  <!-- What is KONSORU Section -->
+  <div style="background:#ffffff; padding:35px 45px; border-radius:16px; box-shadow:0 4px 15px rgba(0,0,0,0.08); margin-bottom:40px;">
+    <h2 style="font-size:2em; color:#1a1a2e; margin-top:0; border-bottom:3px solid #ff6b35; padding-bottom:10px;">✨ What is KONSORU Launcher?</h2>
+    <p style="font-size:1.15em; margin:0;">KONSORU is a <strong>native Android HOME-replacement</strong> designed exclusively for the <strong>AYN Thor</strong> handheld gaming device. It transforms your device into an immersive gaming console experience with <strong>bespoke themed UI per emulated console</strong>. Whether you're playing retro classics or modern emulated games, KONSORU gives your AYN Thor a stunning, unified interface that makes every game feel like it belongs on a dedicated console.</p>
+  </div>
 
-                <!-- Backend -->
-                <div class="skill-category" data-aos="fade-up" data-delay="200">
-                    <div class="skill-category-header">
-                        <div class="skill-icon">
-                            <i class="fas fa-server"></i>
-                        </div>
-                        <h3>后端开发</h3>
-                    </div>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Python</span>
-                        <span class="skill-tag">Flask</span>
-                        <span class="skill-tag">Flask-SocketIO</span>
-                        <span class="skill-tag">WebSocket</span>
-                        <span class="skill-tag">多线程</span>
-                        <span class="skill-tag">REST API</span>
-                    </div>
-                </div>
+  <!-- Key Features Section -->
+  <div style="background:#ffffff; padding:35px 45px; border-radius:16px; box-shadow:0 4px 15px rgba(0,0,0,0.08); margin-bottom:40px;">
+    <h2 style="font-size:2em; color:#1a1a2e; margin-top:0; border-bottom:3px solid #ff6b35; padding-bottom:10px;">🌟 Key Features</h2>
+    <ul style="font-size:1.15em; padding-left:20px; margin:0;">
+      <li style="margin-bottom:15px;"><strong>🎨 Themed UI per Console:</strong> Each emulator gets a unique visual theme, from classic NES pixel art to sleek modern interfaces.</li>
+      <li style="margin-bottom:15px;"><strong>⚡ Native Performance:</strong> Built specifically for Android, ensuring smooth and responsive navigation on your AYN Thor.</li>
+      <li style="margin-bottom:15px;"><strong>🎯 Purpose-Built for AYN Thor:</strong> Optimized for the hardware, providing a seamless experience tailored to your device.</li>
+      <li style="margin-bottom:15px;"><strong>👥 Community-Driven Development:</strong> Public beta focused on real user feedback to shape the final product.</li>
+      <li style="margin-bottom:15px;"><strong>🔄 Regular Updates:</strong> Continuously improved with new features and fixes based on community input.</li>
+    </ul>
+  </div>
 
-                <!-- Frontend -->
-                <div class="skill-category" data-aos="fade-up" data-delay="300">
-                    <div class="skill-category-header">
-                        <div class="skill-icon">
-                            <i class="fas fa-palette"></i>
-                        </div>
-                        <h3>前端开发</h3>
-                    </div>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Vue.js</span>
-                        <span class="skill-tag">JavaScript ES6+</span>
-                        <span class="skill-tag">HTML5/CSS3</span>
-                        <span class="skill-tag">Chart.js</span>
-                        <span class="skill-tag">响应式设计</span>
-                        <span class="skill-tag">Bootstrap</span>
-                    </div>
-                </div>
+  <!-- Download Section -->
+  <div style="background:#ffffff; padding:35px 45px; border-radius:16px; box-shadow:0 4px 15px rgba(0,0,0,0.08); margin-bottom:40px;">
+    <h2 style="font-size:2em; color:#1a1a2e; margin-top:0; border-bottom:3px solid #ff6b35; padding-bottom:10px;">🚀 How to Download & Install</h2>
+    <p style="font-size:1.15em; margin-bottom:25px; font-weight:600;">Getting started is simple! Follow these steps:</p>
+    <div style="background:#f8f9fc; border-left:5px solid #ff6b35; padding:20px 30px; border-radius:8px; margin-bottom:30px;">
+      <p style="font-size:1.3em; color:#1a1a2e; margin:0;"><strong>📥 Step 1:</strong> <a href="https://github.com/Ataak7721/konsoru-launcher-releases/releases" style="color:#ff6b35; font-weight:700; text-decoration:underline;">Visit this link to download the application</a></p>
+      <p style="font-size:1.15em; margin:15px 0 0 0; color:#4a4a68;">You'll be taken to the official release page where you can grab the latest version of KONSORU Launcher.</p>
+    </div>
+    <p style="font-size:1.15em; margin:0; font-weight:600;">After downloading:</p>
+    <ul style="font-size:1.15em; padding-left:20px; margin-top:10px;">
+      <li style="margin-bottom:10px;">Locate the downloaded file in your device's <strong>Downloads folder</strong>.</li>
+      <li style="margin-bottom:10px;">Tap the file to begin the installation process.</li>
+      <li style="margin-bottom:10px;">If prompted, allow installation from unknown sources in your device settings.</li>
+      <li style="margin-bottom:10px;">Follow the on-screen prompts to complete setup.</li>
+      <li style="margin-bottom:10px;">Once installed, KONSORU will appear in your app list and you can set it as your default HOME launcher.</li>
+    </ul>
+  </div>
 
-                <!-- DevOps -->
-                <div class="skill-category" data-aos="fade-up" data-delay="400">
-                    <div class="skill-category-header">
-                        <div class="skill-icon">
-                            <i class="fas fa-cloud"></i>
-                        </div>
-                        <h3>运维 & 部署</h3>
-                    </div>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Linux</span>
-                        <span class="skill-tag">Docker</span>
-                        <span class="skill-tag">Nginx</span>
-                        <span class="skill-tag">Shell脚本</span>
-                        <span class="skill-tag">CI/CD</span>
-                        <span class="skill-tag">集群管理</span>
-                    </div>
-                </div>
+  <!-- Important Notice Section -->
+  <div style="background:#fff8e1; padding:35px 45px; border-radius:16px; box-shadow:0 4px 15px rgba(0,0,0,0.08); margin-bottom:40px; border-left:6px solid #ffc107;">
+    <h2 style="font-size:2em; color:#1a1a2e; margin-top:0; border-bottom:3px solid #ffc107; padding-bottom:10px;">⚠️ Public Beta Notice</h2>
+    <p style="font-size:1.15em; margin:0; font-weight:600; color:#5a4a00;">Please understand that KONSORU is currently in <strong>public beta</strong>:</p>
+    <ul style="font-size:1.1em; padding-left:20px; margin-top:15px; color:#4a4a68;">
+      <li style="margin-bottom:12px;">It is <strong>not feature-complete</strong> and will have some rough edges.</li>
+      <li style="margin-bottom:12px;">Some emulators may have compatibility issues with certain games.</li>
+      <li style="margin-bottom:12px;">You may encounter bugs or crashes - but that's exactly why we need your feedback!</li>
+      <li style="margin-bottom:12px;">The development team is actively working to improve the experience based on community input.</li>
+    </ul>
+    <p style="font-size:1.15em; margin:20px 0 0 0; font-weight:700;">Having trouble or found an issue? <a href="https://discord.gg/XSmG3crde9" style="color:#5865F2; text-decoration:underline;">Join our Discord community</a> and let us know!</p>
+  </div>
 
-                <!-- Data -->
-                <div class="skill-category" data-aos="fade-up" data-delay="500">
-                    <div class="skill-category-header">
-                        <div class="skill-icon">
-                            <i class="fas fa-database"></i>
-                        </div>
-                        <h3>数据 & 数据库</h3>
-                    </div>
-                    <div class="skill-tags">
-                        <span class="skill-tag">MySQL</span>
-                        <span class="skill-tag">Redis</span>
-                        <span class="skill-tag">FFmpeg</span>
-                        <span class="skill-tag">数据清洗</span>
-                        <span class="skill-tag">Pandas</span>
-                        <span class="skill-tag">ETL</span>
-                    </div>
-                </div>
+  <!-- Community Section -->
+  <div style="background:#ffffff; padding:35px 45px; border-radius:16px; box-shadow:0 4px 15px rgba(0,0,0,0.08); margin-bottom:40px;">
+    <h2 style="font-size:2em; color:#1a1a2e; margin-top:0; border-bottom:3px solid #ff6b35; padding-bottom:10px;">🤝 Join Our Community</h2>
+    <p style="font-size:1.15em; margin-bottom:25px;">Your feedback shapes the future of KONSORU! Here's how you can get involved:</p>
+    <div style="display:flex; justify-content:center; gap:20px; flex-wrap:wrap;">
+      <a href="https://discord.gg/XSmG3crde9" style="display:inline-block; background:#5865F2; color:#ffffff; padding:15px 40px; text-decoration:none; font-size:1.15em; font-weight:700; border-radius:10px; box-shadow:0 4px 12px rgba(88,101,242,0.3); margin:10px;">💬 Join Our Discord</a>
+      <a href="https://ko-fi.com/hollywoodkills" style="display:inline-block; background:#ff5e5b; color:#ffffff; padding:15px 40px; text-decoration:none; font-size:1.15em; font-weight:700; border-radius:10px; box-shadow:0 4px 12px rgba(255,94,91,0.3); margin:10px;">☕ Support on Ko-fi</a>
+      <a href="https://github.com/Ataak7721/konsoru-launcher-releases/discussions" style="display:inline-block; background:#3a3a5a; color:#ffffff; padding:15px 40px; text-decoration:none; font-size:1.15em; font-weight:700; border-radius:10px; box-shadow:0 4px 12px rgba(58,58,90,0.3); margin:10px;">📝 Leave Feedback</a>
+    </div>
+  </div>
 
-                <!-- Network -->
-                <div class="skill-category" data-aos="fade-up" data-delay="600">
-                    <div class="skill-category-header">
-                        <div class="skill-icon">
-                            <i class="fas fa-network-wired"></i>
-                        </div>
-                        <h3>网络 & 通信</h3>
-                    </div>
-                    <div class="skill-tags">
-                        <span class="skill-tag">TCP/IP</span>
-                        <span class="skill-tag">UDP多播</span>
-                        <span class="skill-tag">Socket编程</span>
-                        <span class="skill-tag">HTTP/HTTPS</span>
-                        <span class="skill-tag">网络调优</span>
-                        <span class="skill-tag">HID协议</span>
-                    </div>
-                </div>
-            </div>
+  <!-- Troubleshooting Section -->
+  <div style="background:#ffffff; padding:35px 45px; border-radius:16px; box-shadow:0 4px 15px rgba(0,0,0,0.08); margin-bottom:40px;">
+    <h2 style="font-size:2em; color:#1a1a2e; margin-top:0; border-bottom:3px solid #ff6b35; padding-bottom:10px;">🛠️ Troubleshooting Tips</h2>
+    <p style="font-size:1.15em; margin:0; font-weight:600;">If you encounter issues, try these common solutions:</p>
+    <ul style="font-size:1.1em; padding-left:20px; margin-top:15px;">
+      <li style="margin-bottom:12px;"><strong>Games not launching?</strong> Make sure your emulator and ROM files are properly configured in the app settings.</li>
+      <li style="margin-bottom:12px;"><strong>Slow performance?</strong> Close background apps and ensure your AYN Thor has sufficient free storage.</li>
+      <li style="margin-bottom:12px;"><strong>UI issues?</strong> Try clearing the app cache in your device settings under Apps → KONSORU → Clear Cache.</li>
+      <li style="margin-bottom:12px;"><strong>Still stuck?</strong> Join the Discord server - our friendly community is always happy to help.</li>
+    </ul>
+  </div>
 
-            <!-- Skill proficiency visualization -->
-            <div class="skill-bars" data-aos="fade-up">
-                <div class="skill-bar">
-                    <div class="skill-bar-header">
-                        <span>Python / AI 开发</span>
-                        <span>90%</span>
-                    </div>
-                    <div class="skill-bar-track">
-                        <div class="skill-bar-fill" data-width="90"></div>
-                    </div>
-                </div>
-                <div class="skill-bar">
-                    <div class="skill-bar-header">
-                        <span>Flask / 后端架构</span>
-                        <span>85%</span>
-                    </div>
-                    <div class="skill-bar-track">
-                        <div class="skill-bar-fill" data-width="85"></div>
-                    </div>
-                </div>
-                <div class="skill-bar">
-                    <div class="skill-bar-header">
-                        <span>Vue.js / 前端开发</span>
-                        <span>75%</span>
-                    </div>
-                    <div class="skill-bar-track">
-                        <div class="skill-bar-fill" data-width="75"></div>
-                    </div>
-                </div>
-                <div class="skill-bar">
-                    <div class="skill-bar-header">
-                        <span>Linux / 运维部署</span>
-                        <span>85%</span>
-                    </div>
-                    <div class="skill-bar-track">
-                        <div class="skill-bar-fill" data-width="85"></div>
-                    </div>
-                </div>
-                <div class="skill-bar">
-                    <div class="skill-bar-header">
-                        <span>物联网 / 信号处理</span>
-                        <span>80%</span>
-                    </div>
-                    <div class="skill-bar-track">
-                        <div class="skill-bar-fill" data-width="80"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+  <!-- Final Download CTA Section -->
+  <div style="text-align:center; background:#ffffff; padding:45px; border-radius:16px; box-shadow:0 4px 15px rgba(0,0,0,0.08); margin-bottom:40px;">
+    <h2 style="font-size:2.2em; color:#1a1a2e; margin-top:0; font-weight:800;">Ready to Transform Your AYN Thor?</h2>
+    <p style="font-size:1.3em; color:#4a4a68; margin-bottom:30px;">Download KONSORU Launcher today and experience the ultimate gaming interface.</p>
+    <a href="https://github.com/Ataak7721/konsoru-launcher-releases/releases" style="display:inline-block; background:#ff6b35; color:#ffffff; padding:20px 60px; text-decoration:none; font-size:1.5em; font-weight:800; border-radius:12px; box-shadow:0 8px 25px rgba(255,107,53,0.5); transition:transform 0.2s ease;">📥 Download Now</a>
+  </div>
 
+  <!-- Footer -->
+  <div style="text-align:center; padding:30px; color:#4a4a68; font-size:1em;">
+    <p style="margin:0;">© 2024 KONSORU Launcher. Made with ❤️ for the AYN Thor community.</p>
+    <p style="margin:10px 0 0 0;">Platform: <span style="color:#3DDC84; font-weight:700;">Android</span> · For AYN Thor devices only</p>
+  </div>
 
-    <!-- Education Section -->
-    <section id="education" class="education section">
-        <div class="container">
-            <h2 class="section-title" data-aos="fade-up">
-                <span class="section-number">03</span>
-                教育背景
-                <span class="section-line"></span>
-            </h2>
-            <div class="education-cards">
-                <div class="edu-card" data-aos="fade-right" data-delay="100">
-                    <div class="edu-card-header">
-                        <div class="edu-icon">
-                            <i class="fas fa-university"></i>
-                        </div>
-                        <div class="edu-meta">
-                            <h3>澳门理工大学</h3>
-                            <span class="edu-period">2024.08 - 2026.06</span>
-                        </div>
-                        <span class="edu-degree">硕士</span>
-                    </div>
-                    <p class="edu-school">应用科学学院 · 大数据与物联网专业</p>
-                    <p class="edu-focus">研究方向：生理信号检测与深度学习算法</p>
-                    <div class="edu-courses">
-                        <span class="course-tag">物联网系统架构</span>
-                        <span class="course-tag">大数据分析</span>
-                        <span class="course-tag">机器学习</span>
-                        <span class="course-tag">深度学习</span>
-                        <span class="course-tag">神经网络</span>
-                        <span class="course-tag">传感器信号处理</span>
-                    </div>
-                </div>
+</div>
 
-                <div class="edu-card" data-aos="fade-left" data-delay="200">
-                    <div class="edu-card-header">
-                        <div class="edu-icon">
-                            <i class="fas fa-graduation-cap"></i>
-                        </div>
-                        <div class="edu-meta">
-                            <h3>上海建桥大学</h3>
-                            <span class="edu-period">2017.09 - 2021.06</span>
-                        </div>
-                        <span class="edu-degree">本科</span>
-                    </div>
-                    <p class="edu-school">信息技术学院 · 网络工程专业</p>
-                    <div class="edu-courses">
-                        <span class="course-tag">计算机网络</span>
-                        <span class="course-tag">操作系统</span>
-                        <span class="course-tag">网络协议分析</span>
-                        <span class="course-tag">C/C++</span>
-                        <span class="course-tag">Java</span>
-                        <span class="course-tag">Web开发</span>
-                        <span class="course-tag">TCP/IP原理</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Certifications -->
-            <div class="certifications" data-aos="fade-up">
-                <h3><i class="fas fa-certificate"></i> 证书与执照</h3>
-                <div class="cert-list">
-                    <div class="cert-item">
-                        <i class="fas fa-award"></i>
-                        <span>上海市计算机三级证书</span>
-                    </div>
-                    <div class="cert-item">
-                        <i class="fas fa-language"></i>
-                        <span>英语 CET-6</span>
-                    </div>
-                    <div class="cert-item">
-                        <i class="fas fa-language"></i>
-                        <span>日语</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>    <!-- Experience Section -->
-    <section id="experience" class="experience section">
-        <div class="container">
-            <h2 class="section-title" data-aos="fade-up">
-                <span class="section-number">04</span>
-                工作经历
-                <span class="section-line"></span>
-            </h2>
-            <div class="timeline">
-                <!-- 智谱华章 -->
-                <div class="timeline-item" data-aos="fade-right">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <div class="timeline-header">
-                            <div class="timeline-company">
-                                <i class="fas fa-building"></i>
-                                <span>北京智谱华章科技股份有限公司</span>
-                            </div>
-                            <span class="timeline-date">2026.03 - 2026.07</span>
-                        </div>
-                        <h3 class="timeline-role">AI 技术实习生</h3>
-                        <span class="timeline-location"><i class="fas fa-map-pin"></i> 浙江</span>
-                        <ul class="timeline-bullets">
-                            <li>负责边缘AI设备（墨水屏终端）的应用容器化部署与推理服务治理，打通Openclaw框架外网API调用链路，设计任务调度进程守护与自愈机制，<strong>服务调度成功率稳定在99%</strong></li>
-                            <li>负责多硬件终端（摄像头、传感器）的数据采集链路运维与通信协议调优，深入排查数据传输延迟、时序漂移及网络丢包等问题，优化端侧推理与上行传输管道，将<strong>端到端推理响应延迟控制在150ms以内</strong></li>
-                            <li>自主构建自动化回归测试流水线，覆盖服务版本兼容性、稳定性及异常场景，累计执行<strong>6000+测试用例</strong>，并输出7份深度测评报告，有效支撑产品迭代的质量门禁</li>
-                            <li>参与企业级私有知识库与RAG（检索增强生成）应用的后端服务维护，负责大规模语料数据的ETL清洗、向量化入库及索引构建</li>
-                        </ul>
-                        <div class="timeline-tech">
-                            <span class="tech-tag">Docker</span>
-                            <span class="tech-tag">RAG</span>
-                            <span class="tech-tag">ETL</span>
-                            <span class="tech-tag">边缘计算</span>
-                            <span class="tech-tag">Linux</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- 大金 -->
-                <div class="timeline-item" data-aos="fade-left">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <div class="timeline-header">
-                            <div class="timeline-company">
-                                <i class="fas fa-building"></i>
-                                <span>大金（中国）投资有限公司浙江分公司</span>
-                            </div>
-                            <span class="timeline-date">2024.12 - 2025.02</span>
-                        </div>
-                        <h3 class="timeline-role">全栈工程实习生</h3>
-                        <span class="timeline-location"><i class="fas fa-map-pin"></i> 浙江</span>
-                        <ul class="timeline-bullets">
-                            <li>负责企业级促销活动平台的全栈服务架构部署与线上运维，基于Vue.js+Flask技术栈完成项目上线、版本迭代及配置管理</li>
-                            <li>设计并实现前后端联调规范，主导接口鉴权、跨域策略及路由转发配置，支撑商品推荐、优惠券发放、用户认证等核心业务模块</li>
-                            <li>搭建多维度可观测性监控体系，实时采集服务器负载��API响应延迟及页面访问日志，<strong>活动期间系统整体故障率压降至1%以下</strong></li>
-                            <li>基于业务访问日志与用户转化数据进行统计分析，输出运维优化报告，推动服务架构的资源弹性扩容与发布流程标准化</li>
-                        </ul>
-                        <div class="timeline-tech">
-                            <span class="tech-tag">Vue.js</span>
-                            <span class="tech-tag">Flask</span>
-                            <span class="tech-tag">Nginx</span>
-                            <span class="tech-tag">监控告警</span>
-                            <span class="tech-tag">数据分析</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects" class="projects section">
-        <div class="container">
-            <h2 class="section-title" data-aos="fade-up">
-                <span class="section-number">05</span>
-                项目作品
-                <span class="section-line"></span>
-            </h2>
-            <div class="projects-grid">
-
-                <!-- Project 1 -->
-                <div class="project-card" data-aos="fade-up" data-delay="100">
-                    <div class="project-image">
-                        <div class="project-placeholder">
-                            <i class="fas fa-lungs"></i>
-                        </div>
-                        <div class="project-overlay">
-                            <a href="https://github.com/18964502962/shuyizhou.github.io/tree/main/projects/01_rppg_respiratory_detection" class="project-link" target="_blank"><i class="fas fa-external-link-alt"></i></a>
-                            <a href="https://github.com/18964502962/shuyizhou.github.io/tree/main/projects" class="project-link" target="_blank"><i class="fab fa-github"></i></a>
-                        </div>
-                    </div>
-                    <div class="project-info">
-                        <div class="project-header">
-                            <h3>非接触式呼吸检测系统</h3>
-                            <span class="project-year">2024.09 - 2026.03</span>
-                        </div>
-                        <p class="project-desc">
-                            基于FactorizePhys模型创新性改进，提出融合运动感知注意力和自监督重建学习的呼吸率检测模型，实现从面部视频中准确估计呼吸率。
-                        </p>
-                        <ul class="project-highlights">
-                            <li><i class="fas fa-check"></i> 设计双注意力机制（全局+局部运动）</li>
-                            <li><i class="fas fa-check"></i> 实现700+行PyTorch模型代码</li>
-                            <li><i class="fas fa-check"></i> 多任务学习框架：信号预测+运动重建</li>
-                        </ul>
-                        <div class="project-tech">
-                            <span class="tech-tag">PyTorch</span>
-                            <span class="tech-tag">3D-CNN</span>
-                            <span class="tech-tag">注意力机制</span>
-                            <span class="tech-tag">自监督学习</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Project 2 -->
-                <div class="project-card" data-aos="fade-up" data-delay="200">
-                    <div class="project-image">
-                        <div class="project-placeholder sensor">
-                            <i class="fas fa-heartbeat"></i>
-                        </div>
-                        <div class="project-overlay">
-                            <a href="https://github.com/18964502962/shuyizhou.github.io/tree/main/projects/01_rppg_respiratory_detection" class="project-link" target="_blank"><i class="fas fa-external-link-alt"></i></a>
-                            <a href="https://github.com/18964502962/shuyizhou.github.io/tree/main/projects" class="project-link" target="_blank"><i class="fab fa-github"></i></a>
-                        </div>
-                    </div>
-                    <div class="project-info">
-                        <div class="project-header">
-                            <h3>实时多人健康监测系统</h3>
-                            <span class="project-year">2024.10 - 2025.08</span>
-                        </div>
-                        <p class="project-desc">
-                            基于rPPG技术的非接触式生命体征监测系统，通过摄像头实时检测多人的心率、呼吸率等健康指标，封装为完整的Web应用。
-                        </p>
-                        <ul class="project-highlights">
-                            <li><i class="fas fa-check"></i> Flask后端 + SocketIO实时双向通信</li>
-                            <li><i class="fas fa-check"></i> 支持最多3人同时监测</li>
-                            <li><i class="fas fa-check"></i> Chart.js实时数据可视化，30fps稳定帧率</li>
-                        </ul>
-                        <div class="project-tech">
-                            <span class="tech-tag">Python</span>
-                            <span class="tech-tag">Flask</span>
-                            <span class="tech-tag">WebSocket</span>
-                            <span class="tech-tag">Chart.js</span>
-                            <span class="tech-tag">rPPG</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Project 3 -->
-                <div class="project-card" data-aos="fade-up" data-delay="300">
-                    <div class="project-image">
-                        <div class="project-placeholder multi">
-                            <i class="fas fa-users"></i>
-                        </div>
-                        <div class="project-overlay">
-                            <a href="https://github.com/18964502962/shuyizhou.github.io/tree/main/projects/01_rppg_respiratory_detection" class="project-link" target="_blank"><i class="fas fa-external-link-alt"></i></a>
-                            <a href="https://github.com/18964502962/shuyizhou.github.io/tree/main/projects" class="project-link" target="_blank"><i class="fab fa-github"></i></a>
-                        </div>
-                    </div>
-                    <div class="project-info">
-                        <div class="project-header">
-                            <h3>多人生理信号数据采集系统</h3>
-                            <span class="project-year">2025.01 - 2025.12</span>
-                        </div>
-                        <p class="project-desc">
-                            分布式数据采集系统，用于多受试者生理信号研究。实现视频录制与血氧仪数据的网络同步采集，支持多设备协同工作。
-                        </p>
-                        <ul class="project-highlights">
-                            <li><i class="fas fa-check"></i> UDP时间同步协议，精度&lt;100ms</li>
-                            <li><i class="fas fa-check"></i> FFmpeg进程调度优化，NVENC硬件编码</li>
-                            <li><i class="fas fa-check"></i> 60Hz采样率PPG/HR/SPO2实时记录</li>
-                            <li><i class="fas fa-check"></i> 应用于30名实验人员，丢帧率&lt;0.1%</li>
-                        </ul>
-                        <div class="project-tech">
-                            <span class="tech-tag">Python</span>
-                            <span class="tech-tag">FFmpeg</span>
-                            <span class="tech-tag">UDP</span>
-                            <span class="tech-tag">多线程</span>
-                            <span class="tech-tag">HID</span>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-<!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-brand">
-                    <a href="#hero" class="nav-logo">
-                        zhoushuyi
-                    </a>
-                    <p>AI & Full-Stack Developer</p>
-                </div>
-                <div class="footer-links">
-                    <a href="#about">关于</a>
-                    <a href="#skills">技能</a>
-                    <a href="#projects">项目</a>
-                    <a href="#contact">联系</a>
-                </div>
-                <div class="footer-social">
-                    <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
-                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="mailto:1002968845@qq.com"><i class="fas fa-envelope"></i></a>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2025 周舒怡 · 基于 <a href="https://github.com/cobiwave/simplefolio" target="_blank">simplefolio</a> 模板构建</p>
-                <p class="footer-note">Made with <i class="fas fa-heart"></i> and lots of <i class="fas fa-coffee"></i></p>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Back to top -->
-    <a href="#hero" class="back-to-top" id="backToTop">
-        <i class="fas fa-chevron-up"></i>
-    </a>
-
-    <script src="assets/js/main.js"></script>
 </body>
 </html>
